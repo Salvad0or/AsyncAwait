@@ -7,10 +7,11 @@ namespace Sheduler
 {
     internal class Program
     {
-
-     
+       
         static void Main(string[] args)
         {
+
+            Console.ReadKey();
 
             Console.WriteLine($"Id потока - {Thread.CurrentThread.ManagedThreadId }");
 

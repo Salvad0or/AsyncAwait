@@ -5,7 +5,15 @@ VisualStudioVersion = 17.2.32526.322
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AsyncAwait", "AsyncAwait\AsyncAwait.csproj", "{667DEBF2-4251-44E0-B7A2-0434A6EE13FE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sheduler", "Sheduler\Sheduler.csproj", "{1033ECD8-2C00-456C-BCBE-0449ABDE02D7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sheduler", "Sheduler\Sheduler.csproj", "{1033ECD8-2C00-456C-BCBE-0449ABDE02D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "001_NestedTasks", "_NestedTasks\001_NestedTasks.csproj", "{AF97172F-8F10-4B3B-ADC2-DB2795E910A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "002_ChildTask", "002_ChildTask\002_ChildTask.csproj", "{6759B7D7-6CA0-4035-B8D7-BE2AF12FAA00}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "003_NestedTasks", "003_NestedTasks\003_NestedTasks.csproj", "{0D5FF878-17F5-4792-A8AE-15A00D20E32A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "004_NestedTasks", "004_NestedTasks\004_NestedTasks.csproj", "{F2CF4D58-AA17-4C10-B410-6C8C409AC400}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +29,22 @@ Global
 		{1033ECD8-2C00-456C-BCBE-0449ABDE02D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1033ECD8-2C00-456C-BCBE-0449ABDE02D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1033ECD8-2C00-456C-BCBE-0449ABDE02D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF97172F-8F10-4B3B-ADC2-DB2795E910A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF97172F-8F10-4B3B-ADC2-DB2795E910A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF97172F-8F10-4B3B-ADC2-DB2795E910A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF97172F-8F10-4B3B-ADC2-DB2795E910A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6759B7D7-6CA0-4035-B8D7-BE2AF12FAA00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6759B7D7-6CA0-4035-B8D7-BE2AF12FAA00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6759B7D7-6CA0-4035-B8D7-BE2AF12FAA00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6759B7D7-6CA0-4035-B8D7-BE2AF12FAA00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D5FF878-17F5-4792-A8AE-15A00D20E32A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D5FF878-17F5-4792-A8AE-15A00D20E32A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D5FF878-17F5-4792-A8AE-15A00D20E32A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D5FF878-17F5-4792-A8AE-15A00D20E32A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2CF4D58-AA17-4C10-B410-6C8C409AC400}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2CF4D58-AA17-4C10-B410-6C8C409AC400}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2CF4D58-AA17-4C10-B410-6C8C409AC400}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2CF4D58-AA17-4C10-B410-6C8C409AC400}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
